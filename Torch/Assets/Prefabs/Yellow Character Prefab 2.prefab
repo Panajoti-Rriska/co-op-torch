@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4500337663038774}
+  - component: {fileID: 114166309147008492}
   m_Layer: 0
   m_Name: Yellow Character Prefab 2
   m_TagString: Untagged
@@ -807,7 +808,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1013373868547956}
   m_LocalRotation: {x: -0, y: -0.60876185, z: -0, w: -0.7933531}
-  m_LocalPosition: {x: 10.360194, y: 0, z: -4.5983953}
+  m_LocalPosition: {x: 11.878, y: 0.007, z: -4.267}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4723343115929050}
@@ -1178,6 +1179,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114166309147008492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013373868547956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0507e29ffe4254ca9fe9aaf1a12040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135980088402439952
 SphereCollider:
   m_ObjectHideFlags: 1
